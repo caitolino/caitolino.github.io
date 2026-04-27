@@ -27,3 +27,9 @@
 .hori{display:flexbox;
 flex-direction: column;}
 .help{flex-direction: column;}
+footer {
+  color:floralwhite;
+  background-color: rgba(224, 135, 172, 0.664);
+  font-family: monospace;
+  position: fixed;
+}
