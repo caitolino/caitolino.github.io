@@ -5,8 +5,25 @@
 </style>
 </head>
 
-.body{
-    background-color: floralwhite;
-    color:pink;
-    font-family: ;
+.big{font-family: .emilys-candy-regular;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;}
+        
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
+.emilys-candy-regular {
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hori{display:flexbox;
+flex-direction: column;}
+.help{flex-direction: column;}
