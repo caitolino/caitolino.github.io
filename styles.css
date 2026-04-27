@@ -5,7 +5,7 @@
 </style>
 </head>
 
-.big{font-family: .emilys-candy-regular;
+.big{font-family: .emilys-candy-regul;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -20,7 +20,7 @@
     "wdth" 100;
 }
 .emilys-candy-regular {
-  font-family: "Emilys Candy", serif;
+  font-family: "Emilys Candy", "ani", monospace;
   font-weight: 400;
   font-style: normal;
 }
