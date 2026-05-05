@@ -39,8 +39,8 @@ footer {
 }
 .star:before, .star:after{
   position:absolute;
-  top;0;
-  left:0;
+  top: 0;
+  left: 0;
   content:'\2726';
   font-size: 9px;
 }
@@ -52,4 +52,23 @@ footer {
   background: rgb(224, 135, 172));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.blossom{
+  position:fixed;
+  pointer-events: none;
+}
+.blossom:before, .blossom:after{
+  position:absolute;
+  top: 0;
+  left: 0;
+  content:'🌸';
+  font-size: 12px;
+}
+
+.blossom:before{
+  color: rgb(253, 172, 206);
+  text-shadow: 0 0 3px rgb(252, 211, 228);
+}
+.blossom:after{
+  display: none;
 }

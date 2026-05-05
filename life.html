@@ -17,6 +17,25 @@
     </style>
 </head>
 <body>
+    <script> 
+    window.addEventListener('mousemove',function(e) {
+        var arr =[1, 0.9, 0.8, 0.5, 0.2];
+        arr.forEach(function(i){ 
+            var x = (1-i) * 75;
+            var blossom = document.createElement('div');
+            blossom.className = 'blossom';
+            blossom.style.top = e.clientY + Math.round(Math.random()*x-x /2) + 'px';
+            blossom.style.left = e.clientX + Math.round(Math.random()*x-x /2) + 'px';
+
+            document.body.appendChild(blossom);
+
+            window.setTimeout(function(){
+                document.body.removeChild(blossom);
+            }, Math.round(Math.random()*i*600))
+        })
+        }, false);
+    </script>
+
 <div class = "big">
 <h3>Aubout me!</h3>
 <p>My name's Caitlin, I'm 17 years old and I love reading, drawing, and expressing myself. I'm currently <br> 
