@@ -5,9 +5,11 @@
 </style>
 </head>
 
-.big{font-family: .emilys-candy-regul;
-    display: flex;
-    text-align: center;
+* {
+  font-family: "Emilys Candy", sans-serif;
+}
+
+.big{font-family: "Emilys Candy", sans-serif;
     justify-content: center;
     align-items: center;}
         
