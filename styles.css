@@ -74,3 +74,12 @@ footer {
 .blossom:after{
   display: none;
 }
+/*
+Source - https://stackoverflow.com/a/67259339
+Posted by Skully, modified by community. See post 'Timeline' for change history
+Retrieved 2026-06-02, License - CC BY-SA 4.0
+*/
+
+.cursor {
+    cursor: url("images.jpeg"),-moz-zoom-in;
+}
